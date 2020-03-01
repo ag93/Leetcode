@@ -1,0 +1,12 @@
+def combination_sum(a):
+    lowSum = 0
+    offsetSum = 0
+    for i in range(len(a)):
+        lowSum += a[i]
+
+        size = len(str(a[i]))
+        offset = 10**size
+        offsetSum += offset
+    
+
+    return(lowSum * len(a) + lowSum * offsetSum)
