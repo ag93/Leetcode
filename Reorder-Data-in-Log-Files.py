@@ -5,7 +5,7 @@ class Solution:
             key, rest = all_parts[0], all_parts[1:]
             return  [' '.join(rest), ' ' + key]
         
-        letterLogs = []``
+        letterLogs = []
         digitLogs = []
         
         for log in logs:
