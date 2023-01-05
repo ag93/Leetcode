@@ -19,4 +19,25 @@ class Solution:
             second = second.next
         
         second.next = second.next.next
-        return dummy.next;
+        return dummy.next
+
+
+    #-------------------------------------------------------------------
+        # dummy = ListNode(-1)
+        # dummy.next = head
+        # linkedListLength = 0
+
+        # pointer = head
+        # while(pointer.next):
+        #     linkedListLength += 1
+        #     pointer = pointer.next
+
+        # length = linkedListLength-n+1
+        # first = dummy
+        # while(length > 0):
+        #     first = first.next
+        #     length -= 1
+        
+        # first.next = first.next.next
+
+        # return dummy.next
